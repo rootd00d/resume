@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="resume.xsl"?>
+<resume>
+  <engineer>
+    <name>Casey Billett</name>
+    <email>cbillett@xyu.ca</email>
+    <phone>206-992-6784</phone>
+    <facebook>https://www.facebook.com/rootd00d</facebook>
+    <linkedin>https://www.linkedin.com/in/rootd00d</linkedin>
+    <twitter>https://www.twitter.com/rootd00d</twitter>
+  </engineer>
+  <education>
+    <school>
+      <degree>Systems and Computer Engineering, B.Eng.</degree>
+      <name>Carleton University</name>
+      <location>Ottawa, ON</location>
+      <period>1999 - 2005</period>
+      <image>carleton.png</image>
+      <link>http://www.carleton.ca</link>
+    </school>
+    <school>
+      <degree>Ontario Secondary School Diploma</degree>
+      <name>Grenville Christian College</name>
+      <location>Maitland, ON</location>
+      <period>1994 - 1999</period>
+      <image>gcc.png</image>
+      <link>http://en.wikipedia.org/wiki/Grenville_Christian_College</link>
+    </school>
+  </education>
+  <experience>
+    <job>
+      <company>Indegene Aptilon Inc.</company>
+      <location>Dorval, QC</location>
+      <tag>indegene</tag>
+      <area>
+        <role>Operations Engineer (Contract)</role>
+        <product>Multi-Channel Marketing</product>
+        <period>December 2014-Present</period>
+        <work>
+<item>Designed AWS CloudFormation templates for automated deployment of server stack, storage, network, and database configuration</item>
+<item>Created a Jenkins automated build server and deployment strategy using AWS CloudFront &amp; S3</item>
+<item>Leveraged Docker &amp; Docker Compose to provision efficient, reproducible, deployment environments for developers</item>
+<item>Redesign, tooling, and automated deployment of customer-facing .NET client application</item>
+<item>Wrote a log monitoring daemon with automated triggering and notification via SMS</item>
+        </work>
+        <skills>
+<item>C#</item>
+<item>Java</item>
+<item>Perl</item>
+<item>AWS CloudFormation</item>
+<item>AWS CloudFront</item>
+<item>AWS EC2</item>
+<item>Docker</item>
+        </skills>
+      </area>
+    </job>
+    <job>
+      <company>Fraktel</company>
+      <location>Seattle, WA</location>
+      <logo>fraktel.png</logo>
+      <tag>fraktel</tag>
+      <area>
+        <role>Co-Founder / Architect</role>
+        <product>Startup</product>
+        <unit></unit>
+        <period>2009-Present</period>
+        <work>
+<item>Cloud-based social application design &amp; development</item>
+<item>Proprietary game engine design &amp; implementation</item>
+<item>Application development for iOS &amp; Windows Phone</item>
+        </work>
+        <skills>
+<item>Objective-C</item>
+<item>jQuery</item>
+<item>HTML5</item>
+<item>CSS3</item>
+<item>Amazon EC2</item>
+<item>Artificial Intelligience</item>
+<item>Physics Simulation</item>
+<item>Web Services</item>
+        </skills>
+      </area>
+    </job>    
+    <job>
+      <company>Microsoft Corporation</company>
+      <location>Redmond, WA</location>
+      <logo>microsoft.png</logo>
+      <tag>microsoft</tag>
+      <area>
+        <role>Software Developer Engineer in Test</role>
+        <product>Microsoft SQL Server</product>
+        <unit>SQL Connectivity</unit>
+        <period>2007-2011</period>
+        <logo>sqlserver.png</logo>
+        <work>
+<item>Automation for feature, security, performance &amp; stress testing in the SQL Server ODBC Driver for Linux, SQL Server PHP Driver &amp; SQL Server TDS Protocols test teams</item>
+<item>Major test suite efficiency and reliability improvements</item>
+<item>Database, web service &amp; Windows Test Technologies components for cross-platform test automation</item>
+<item>Web-service &amp; client for managing virtualized test resources</item>
+<item>Features &amp; improvements for centralized SQL automation UX, UI and tools</item>
+<item>Multi-machine authentication &amp; authorization testing</item>
+<item>Cross-platform testing of SQL Native Client on major Linux platforms</item>
+<item>Analysis and messaging tools for cross-platform code defect detection and reporting</item>
+<item>Service hardening feature testing in SQL Engine for a company-wide security incident response plan</item>
+        </work>
+        <skills>
+<item>C++</item>
+<item>C#</item>
+<item>Bash</item>
+<item>Java</item>
+<item>Perl</item> 
+<item>PHP</item>
+<item>PowerShell</item>
+<item>T-SQL</item>
+<item>UML</item>
+<item>XML</item>
+<item>Automation</item>
+<item>Authentication (SSPI)</item>
+<item>Clustering</item>
+<item>Code-Coverage</item>
+<item>Software Design</item>
+<item>Enterprise Administration</item>
+<item>Linux Automation</item>
+<item>Performance Analysis</item>
+<item>Test Specification</item>
+<item>Threat-Modeling</item>
+<item>Virtualization</item>
+<item>Web Services (WCF)</item>
+        </skills>
+      </area>
+      <area>
+        <role>Software Developer Engineer in Test</role>
+        <division>Operating Systems Group</division>
+        <product>Microsoft Windows</product>
+        <unit>Windows Security</unit>
+        <period>2005-2007</period>
+        <logo>security.png</logo>
+        <work>
+<item>Built an E2E, multi-machine feature verification, automatic defect detection &amp; reproduction test system for the Windows Security Health Validator &amp; Windows Security Health Agent</item>
+<item>Provisioned Windows Server Update Services server used by the Windows Security Components team to sign-off on Windows Vista &amp; Windows Server 2008</item>
+        </work>
+        <skills>
+<item>C++</item>
+<item>C#</item>
+<item>Perl</item>
+<item>COM</item>
+<item>WMI</item>
+<item>Win32</item>
+<item>Automation</item>
+<item>Code-Coverage</item>
+<item>Design</item>
+<item>Specification</item>
+        </skills>
+      </area>
+      <area>
+        <role>Software Developer Engineer in Test (Intern)</role>
+        <product>Security Business &amp; Technology Unit</product>
+        <unit>Emerging Technologies Group</unit>
+        <period>Summer 2004</period>
+        <logo>sppt.png</logo>
+        <work>
+<item>Virus and worm simulation for testing next‐generation Microsoft security technologies</item>
+<item>Used source code from worms and viruses and analyzed exploitation techniques, e.g. Sasser, MyDoom, Slammer</item>
+<item>Isolated function in SQL Server with an unannounced vulnerability subject to exploit similar to Slammer</item>
+        </work>
+        <skills>
+<item>C++</item>
+<item>Automation</item>
+<item>Anti-Malware Technology</item>
+<item>Intrusion Detection</item>
+<item>Virus Simulation</item>
+<item>Win32</item>
+<item>Virtualization</item>
+        </skills>
+      </area>
+    </job>
+    <job>
+      <company>Nordion</company>
+      <logo>nordion.png</logo>
+      <unit>Engineering</unit>
+      <location>Ottawa, ON</location>
+      <tag>nordion</tag>
+      <area>
+        <role>Engineer (Intern)</role>
+        <product>Controls Engineering</product>
+        <unit>Dosimetry Laboratory</unit>
+        <period>Summer 2003</period>
+        <work>
+<item>Developed UX, UI, tools &amp; communications module for use with an optical densitometer for measuring film dosimeters, performing analysis, and generating reports to be used by nuclear physicists and lab technicians to monitor hospital blood irradiation equipment</item>
+<item>Worked on validation plan for acquiring FDA certification of dosimetry validation process</item>
+        </work>
+        <skills>
+<item>Visual Basic</item>
+<item>Turbo Pascal</item>
+<item>Serial Protocols</item>
+        </skills>
+      </area>
+    </job>
+    <job>
+      <company>Dolphin Software Services, Ltd.</company>
+      <logo>dolphin.png</logo>      
+      <location>Dorval, QC</location>
+      <tag>dolphin</tag>
+      <area>
+        <role>Systems Engineer &amp; IT Specialist (Intern)</role>
+        <product>Global Messaging System</product>
+        <unit>Engineering</unit>
+        <period>Summer 2000</period>
+        <work>
+<item>Designed &amp; built high-performance &amp; cost-effective Linux servers for production</item>
+<item>Performed networking administration duties on a large server and workstation network</item>
+        </work>
+        <skills>
+<item>Oracle 8i</item>
+<item>IBM DB2</item>
+<item>IBM WebSphere</item>
+<item>Lotus Domino</item>
+<item>X-Windows (XDMCP)</item>
+<item>RedHat Enterprise Linux</item>
+<item>DNS Administration</item>
+<item>iptables</item>
+        </skills>
+      </area>
+    </job>
+    <job>
+      <company>Eastern Independent Telecom Ltd.</company>
+      <logo>eit.png</logo>
+      <location>Brockville, ON</location>
+      <tag>eit</tag>
+      <area>
+        <role>Administrator &amp; Web Developer (Intern)</role>
+        <product>Engineering</product>
+        <unit>Internship</unit>
+        <period>1998</period>
+        <work>
+<item>Developed Internet facing commercial site</item>
+<item>Developed Intranet sites for internal business operation</item>
+<item>Trained key staff members in web development skills</item>
+<item>Assisted the development of on-demand ISDN connectivity solution</item>
+        </work>
+        <skills>
+<item>DHTML</item>
+<item>JavaScript</item>
+<item>Perl</item>
+<item>Bash Scripting</item>
+<item>IP Networking</item>
+<item>ipchains</item>
+        </skills>
+      </area>
+    </job>
+    <job>
+      <company>Industry Canada</company>
+      <logo>canada.png</logo>
+      <location>Prescott, ON</location>
+      <tag>industrycanada</tag>
+      <area>
+        <role>Site Administrator &amp; Trainer</role>
+        <product>Community Access Program</product>
+        <unit>Youth Internships</unit>
+        <period>Summers 1997-1999</period>
+        <work>
+<item>Built a satellite-Internet equipped public Internet training lab</item>
+<item>Provided  training to people of all ages how to use the Internet</item>
+<item>Performed and taught web development for promoting regional history, tourism, and the business community</item>
+        </work>
+        <skills>
+<item>Perl</item>
+<item>Debian GNU/Linux</item>
+<item>HTML 3.0</item>
+<item>Team Collaboration</item>
+<item>Community Engagement</item>
+<item>Technical Leadership</item>
+<item>Windows NT</item>
+        </skills>
+      </area>
+    </job>
+  </experience>
+</resume>

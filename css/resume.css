@@ -1,0 +1,390 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400);
+
+@page {
+  margin: 0.5in;
+  size: portrait;
+  marks: none;
+}
+
+@media print { 
+  .noprint { display: none !important; }
+  html { font-size: 0.7em !important; }
+  header {
+    position: absolute !important;
+  }
+  header.shrink {
+      box-shadow: none !important;
+  }
+  div.job {
+    opacity: 1.0 !important; 
+    margin-bottom: 1em !important;
+  }
+  div.area {
+    page-break-inside: avoid;
+  }
+}
+
+@media screen {
+  .noscreen { display: none !important; }
+}
+
+@media screen and (max-width: 600px)
+{
+  header {
+    position: static !important;
+    height: 3em !important;
+    line-height: 3em !important;
+    overflow: hidden;
+  }
+  
+  header h1 {
+    position: static !important;
+    text-align: center !important;
+    padding: 0 !important;
+    display: block !important;
+    width: 100% !important;
+  }
+  
+  header div.social {
+    position: static !important;
+    float: none !important;
+    width: 100% !important;
+    line-height: 2em !important;
+    text-align: center !important;
+    display: block !important;
+  }
+
+  .social a i {
+    line-height: 2em !important;
+  }
+  
+  section#education {
+    margin: 5em 1em 1em !important;
+  }
+  
+  .job div.info {
+    position: static !important;
+    width: 100% !important;
+  }
+  div.work {
+    position: static !important;
+    width: 100% !important;
+    padding: 0 !important;
+
+  }
+  .period {
+    width: 100% !important;
+  }
+  .product {
+    width: 100% !important;
+  }
+  .unit {
+    width: 100% !important;
+  }
+  div.skills {
+    width: 100% !important;
+    text-align: left;
+  }
+  div.skills li {
+    display: inline !important;
+  }
+  
+  div.skills :not(:last-child):after {
+    content: ' / ';
+  }
+}
+
+
+html { 
+  min-height: 100%;
+  position: relative;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+body {
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  min-height: 100%;
+  margin: 0;
+  background: white;
+}
+
+header {
+  width: 100%;
+  overflow: visible;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6em;
+  line-height: 6em;
+  margin: 0;
+  background: rgba(255,255,255,0.50);
+  color: #111111;
+  z-index: 999;
+}
+
+.header-animate {
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease
+  -webkit-transition: all 0.5s ease;
+}
+
+header.shrink {
+  box-shadow: 1px 2px 5px #ebebeb;
+  background: rgba(255, 255, 255, 0.92);
+  height: 3em;
+  line-height: 3em;
+}
+
+header.shrink div.social a i { line-height: 1.5em; }
+
+header.shrink h1#name {
+  font-size: 1.5em;
+}
+
+header h1#name {
+  float: left;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  padding-left: 1em;
+  font-weight: 600;
+  font-size: 2em;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease
+  -webkit-transition: all 0.5s ease;
+}
+
+header div.contact {
+  float: right;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  padding-right: 3em;
+  font-size: 1em;
+  line-height: 1em;
+  color: #999999;
+  text-align: right;
+}
+
+.contact-email {
+  text-align: right;
+}
+.contact-phone {
+  text-align: right;
+}
+
+header div.social a i {
+  line-height: 3em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+header div.social {
+  float: right;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  font-size: 2em;
+  text-align: right;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-name: socialslide;
+  -moz-animation-duration: 1s;
+  -moz-animation-name: socialslide;
+}
+
+header div.social a {
+  color: #cecece;
+  transition: color .6s ease;
+}
+
+header div.social a:hover { color: #B565A7; }
+
+@-webkit-keyframes socialslide {
+  from {
+    margin-right: -100%;
+  }
+  to {
+    margin-right: 0;
+  }
+}
+
+@-moz-keyframes socialslide {
+  from {
+    margin-right: -100%;
+  }
+  to {
+    margin-right: 0;
+  }
+}
+
+section {
+  overflow: hidden;
+  margin-bottom: 2em;
+  position: relative;
+}
+
+section#experience {
+  margin: 1em 3em 0em 3em;
+}
+
+section#education {
+  margin: 6em 3em 3em 3em;
+}
+
+div.company {
+  color: #111111;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+div.location {
+  color: #666666;
+  font-size: 0.7em;
+}
+
+
+div.job {
+  opacity: 0.5;
+  margin-bottom: 3em;
+}
+
+.job .area {
+  overflow: hidden;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  border-top: 1px solid #ebebeb;
+}
+
+.job .info {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin-top: 1em;
+  text-align: right;
+}
+
+.job .work .role 
+{
+  font-weight: 300;
+  color: #111111;
+}
+
+.product { color: #444444; font-size: 1.0em; }
+.unit { color: #555555; font-size: 0.8em; }
+.period { color: #666666; font-size: 0.7em; }
+
+.work {
+  float: left;
+  width: 50%;
+  margin-top: 1em;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-left: 2em;
+}
+
+.skills {
+  float: right;
+  width: 25%;
+  color: #777777;
+  text-align: right;
+  font-size: 0.7em;
+}
+
+div.school {
+  overflow: hidden;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.school .info {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  text-align: right;
+}
+
+.school .desc {
+  float: left;
+  width: 75%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-left: 2em;
+}
+
+.school .desc .name {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.school .desc .degree {
+  color: #111111;
+  font-size: 0.8em;
+}
+
+section#end {
+  margin: 0;
+  overflow: hidden;
+  font-size: 0.7em;
+  height: 2%;
+  text-align: right;
+  background: #000000;
+  color: #333333;
+}
+
+.grayscale {
+    opacity: 0.8;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all .6s ease;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
+.grayscale:hover {
+    opacity: 1.0;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+
+a {
+  text-decoration: none !important;
+  color: #0397d6;
+}
+
+a > img {
+  border-style: none;
+}
+
+.work ul {
+  padding: 0;
+  list-style: none;
+}
+
+.work ul li {
+  overflow: visible;
+  margin-bottom: 1em;
+  font-size: 0.8em;
+}
+
+.skills ul {
+  padding: 0;
+  list-style-type: none;
+}
