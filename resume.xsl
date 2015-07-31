@@ -38,7 +38,9 @@ my skills are heroic.
       <xsl:value-of select="name"/>
     </h1>
     <div class="social noprint">
+      <a class="website"><xsl:attribute name="href"><xsl:value-of select="website"/></xsl:attribute><i class="fa fa-male"></i></a>
       <a class="linkedin"><xsl:attribute name="href"><xsl:value-of select="linkedin"/></xsl:attribute><i class="fa fa-linkedin"></i></a>
+      <a class="github"><xsl:attribute name="href"><xsl:value-of select="github"/></xsl:attribute><i class="fa fa-github"></i></a>
       <a class="email"><xsl:attribute name="href">mailto:<xsl:value-of select="email"/></xsl:attribute><i class="fa fa-envelope"></i></a>
       <a class="phone"><xsl:attribute name="href">tel:<xsl:value-of select="phone"/></xsl:attribute><i class="fa fa-phone-square"></i></a>
     </div>
