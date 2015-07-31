@@ -10,7 +10,7 @@
     <head>
       <title>Casey Billett | Resume</title>
       <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0" />
-      <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
       <link href="css/resume.css" type="text/css" rel="stylesheet"/>
       <link rel="icon" type="image/png" href="img/favicon-64x64.png" />
       <script type="text/javascript" src="js/analytics.js"></script>
